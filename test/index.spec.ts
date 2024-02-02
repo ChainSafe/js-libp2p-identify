@@ -155,7 +155,7 @@ describe('identify', () => {
     const { connection, stream } = identifyStream(remotePeer)
 
     const input = stream.source = pushable<Uint8ArrayList>()
-    stream.sink.callsFake(async (source) => {
+    stream.sink.callsFake(async (source: AsyncIterable<unknown>) => {
       await drain(source)
     })
 

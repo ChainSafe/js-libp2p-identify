@@ -25,7 +25,7 @@ export function connectionStream (remotePeer: PeerId, protocol: string): { conne
   const stream = stubInterface<Stream>()
   connection.newStream.withArgs(protocol).resolves(stream)
 
-  stream.sink.callsFake(async (source) => {
+  stream.sink.callsFake(async (source: AsyncIterable<unknown>) => {
     await drain(source)
   })
 
