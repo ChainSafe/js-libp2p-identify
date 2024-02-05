@@ -43,6 +43,7 @@
     "clean": "aegir clean",
     "generate": "protons ./src/pb/index.proto",
     "lint": "aegir lint",
+    "test:browser": "aegir test",
     "test:chrome": "aegir test -t browser --cov",
     "test:chrome-webworker": "aegir test -t webworker",
     "test:firefox": "aegir test -t browser -- --browser firefox",
