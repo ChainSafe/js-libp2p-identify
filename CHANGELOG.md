@@ -68,6 +68,17 @@
   * devDependencies
     * @libp2p/interface-compliance-tests bumped from ^5.1.3 to ^5.2.0
 
+## 1.0.0 (2024-02-05)
+
+
+### Miscellaneous
+
+* fix build ([8a96efb](https://github.com/ChainSafe/js-libp2p-identify/commit/8a96efbb7a0a110ab7ea663ad5c620ba85a314ae))
+* fix ci ([d0b1f7b](https://github.com/ChainSafe/js-libp2p-identify/commit/d0b1f7b8b5a1a88b40054d711fe2d6a99c2845b4))
+* fix dep-check ([275c50b](https://github.com/ChainSafe/js-libp2p-identify/commit/275c50bdab3adf1cbab7c49d4f44ab66678b0ae3))
+* fix lint error ([96dab13](https://github.com/ChainSafe/js-libp2p-identify/commit/96dab13aca3f7d6cde47e4e735256d5c90d1d6fc))
+* initial commit ([bfdb0d1](https://github.com/ChainSafe/js-libp2p-identify/commit/bfdb0d16f0b56ce072773a6f5a869ab1e3324f63))
+
 ## [1.0.11](https://github.com/libp2p/js-libp2p/compare/identify-v1.0.10...identify-v1.0.11) (2024-01-16)
 
 
